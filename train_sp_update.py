@@ -109,10 +109,10 @@ def main(opt):
 
     for epoch in range(start_epoch + 1, opt.num_epochs + 1):
 
-        # if opt.sup_mode==3 and epoch == 1:
-        #     print('generate labels!!!')
-        #     generate_labels(opt.data_dir)
-        #     print('generate labels done!!!')
+        if opt.sup_mode==3 and epoch == 1:
+            print('generate labels!!!')
+            generate_labels(opt.data_dir)
+            print('generate labels done!!!')
 
         log_dict_train, _ = trainer.train(epoch, train_loader)
 
