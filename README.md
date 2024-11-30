@@ -48,10 +48,13 @@ Quantitative results of different models evaluated by Recall (Re), Precision (Pr
 If you find the code useful, please consider citing our paper using the following BibTeX entry.
 ```
 @article{xiao2024highly,
-  title={Highly Efficient and Unsupervised Framework for Moving Object Detection in Satellite Videos},
-  author={Xiao, Chao and An, Wei and Zhang, Yifan and Su, Zhuo and Li, Miao and Sheng, Weidong and Pietik{\"a}inen, Matti and Liu, Li},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  author={Xiao, Chao and An, Wei and Zhang, Yifan and Su, Zhuo and Li, Miao and Sheng, Weidong and Pietikäinen, Matti and Liu, Li},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Highly Efficient and Unsupervised Framework for Moving Object Detection in Satellite Videos}, 
   year={2024},
-  publisher={IEEE}
-}
+  volume={46},
+  number={12},
+  pages={11532-11539},
+  doi={10.1109/TPAMI.2024.3409824}
+  }
 ```
